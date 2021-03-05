@@ -16,6 +16,7 @@ header {
   text-align: center;
   background: #13293d;
   color: #fff;
+  border-radius: 50px 50px 0px 0px;
 }
 
 nav {
@@ -68,8 +69,8 @@ footer {
   border-style: solid;
   border-width: 1px;
   border-radius: 20%;
-  transform: skew(-10deg);
-  box-shadow: 8px 8px grey;
+  transform: rotate(10deg);
+  box-shadow: 8px 8px 5px grey;
   padding: 10px;
   margin: 20px;
   flex: 0 0 300px;
