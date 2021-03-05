@@ -14,3 +14,10 @@ also there are row-reverse and column-reverse.
 we could use media queries or css grid instead of flexbox
 
 ### What e-commerce websites can you find that are using flexbox properties to help organize their components and layouts?
+
+amazon
+
+### What are vendor prefixes, and how are they useful?
+
+prefix added to experimental/nonstandard css properties and javascript api's eg -webkit- -moz-
+useful for experimenting with ideas without them breaking the code.
