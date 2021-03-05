@@ -16,7 +16,7 @@ header {
 
 /* 
 What happens when we set the display property to flex? 
-TODO: Write your answer here 
+The nav bar becomes a flex container. 
 */
 nav {
   display: flex;
@@ -32,7 +32,8 @@ nav a {
 
 /* 
 What is the flex-wrap property? 
-TODO: Write your answer here 
+It tells the flex items to go down to the next row (default) when theres overflow or
+viewport is smaller
 */
 main {
   display: flex;
@@ -49,7 +50,8 @@ aside {
 /* 
 What does the flex-shrink property specify?
 What is doing here? 
-TODO: Write your answer here 
+It defines ability for flex item to shrink if necessary 
+Here it is set to 0 so the element will not shrink
 */
 footer {
   flex-shrink: 0;
@@ -61,7 +63,7 @@ footer {
 
 /* 
 What does the justify-content property do? 
-TODO: Write your answer here 
+It defines the alignment of the flex items along the main axis 
 */
 .products {
   flex: 4;
@@ -74,8 +76,10 @@ TODO: Write your answer here
 
 /* 
 What is the flex property a shorthand property for?
-What is it doing here? 
-TODO: Write your answer here 
+It short hand for flex-grow, flex-shrink, and flex-basis
+flex-grow 0 - means the card wont grow
+flex-shrink 0 - means the card wont shrink
+flex-basis 400px - sets the initial width of the card to 400px
 */
 .card {
   border-style: solid;
@@ -99,8 +103,10 @@ TODO: Write your answer here
 
 /* 
 What does the flex-direction property define?
-What is it doing here? 
-TODO: Write your answer here 
+What is it doing here?
+establishes the main axis so defines the direction flex items are placed in the container 
+Once the viewport is less than 768 change the direction to column so they items list
+out one below the other
 */
 @media screen and (max-width: 768px) {
   main,

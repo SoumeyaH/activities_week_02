@@ -8,3 +8,9 @@ Start designing with smaller screens in mind then go bigger and bigger rather th
 
 It could run in columns going top to bottom.
 also there are row-reverse and column-reverse.
+
+### What other CSS property can we use to create responsive layouts?
+
+we could use media queries or css grid instead of flexbox
+
+### What e-commerce websites can you find that are using flexbox properties to help organize their components and layouts?
